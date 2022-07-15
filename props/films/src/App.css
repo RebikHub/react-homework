@@ -1,0 +1,7 @@
+.card-body-stars {
+  display: flex;
+  list-style: none;
+  width: 200px;
+  margin: auto;
+  border: 1px solid black;
+}

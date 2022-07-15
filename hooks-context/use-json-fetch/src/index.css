@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  width: 900px;
+  margin: 20px auto;
+}
+
+.App > div {
+  margin-bottom: 5px;
+}

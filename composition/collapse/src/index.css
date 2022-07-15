@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  width: 900px;
+  margin: 20px auto;
+}
+
+.collapse {
+  border-bottom: 1px dashed black;
+  cursor: pointer;
+}
+
+.none {
+  display: none;
+}

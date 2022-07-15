@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  display: flex;
+  width: 1200px;
+  margin: 20px auto;
+}
+
+.App {
+  width: 90%;
+}
+
+ul {
+  list-style: none;
+}
+
+.news-side {
+  display: flex;
+  justify-content: space-between;
+}
+.news > nav > ul > li {
+  margin: 5px 0;
+}
+.header-news {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.header-news-list > li {
+  margin-right: 10px;
+}
+
+.header-news-list {
+  display: flex;
+}
+.body-news > li {
+  margin: 5px 0;
+}
+.quotes {
+  display: flex;
+}
+.quotes > li {
+  width: 50%;
+  display: flex;
+  margin-right: 10px;
+  justify-content: space-between;
+  align-items: self-end;
+}
+.side-item {
+  width: 30%;
+}
+.list-search {
+  margin: 10px 0;
+}
+.list-nav {
+  display: flex;
+}
+.list-nav > li {
+  margin-right: 10px;
+}
+.search-link {
+  margin-right: auto;
+  margin-top: 220px;
+  padding-left: 65px;
+}
+.search-form {
+  margin: 10px 0;
+}
+.search-input {
+  width: 70%;
+}
+.advertising-link {
+  border: 1px blue solid;
+  width: 70%;
+  height: 70px;
+  margin-bottom: 10px;
+}
+.section-cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 30%;
+}
+.card > header > a {
+  margin-right: 5px;
+}
+.weather {
+  display: flex;
+}
+.weather > p {
+  margin: 0 10px;
+}
+.card > ul > li {
+  display: flex;
+}
+.card > ul > li > p {
+  margin: 0 10px;
+}
+.card > h4 {
+  margin-bottom: 5px;
+}
+.card > header {
+  display: flex;
+  margin-bottom: 5px;
+}
+.card > header > h4 {
+  margin-right: 5px;
+}
